@@ -19,13 +19,14 @@ function verifier(){
 
 if (compte.length == 16) {
     result = 'valide';
+    //change la couleur du fond en vert si c est valide
     compte.style.backgroundColor= "green";
   } else {
     result = 'non valide';
     
     
 }
-
+//somme doit etre superieur a zero
 if(somme !=0){
     result = 'valide'
 }else{
