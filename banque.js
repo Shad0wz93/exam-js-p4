@@ -19,6 +19,7 @@ function verifier(){
 
 if (compte.length == 16) {
     result = 'valide';
+    compte.style.backgroundColor= "green";
   } else {
     result = 'non valide';
     
