@@ -21,4 +21,12 @@ if (compte.length == 16) {
     result = 'valide';
   } else {
     result = 'non valide';
+    
+    
+}
+
+if(somme !=0){
+    result = 'valide'
+}else{
+    result ='non valide'
 }
